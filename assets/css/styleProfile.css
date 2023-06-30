@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header incude logo */
+/* Header
+
+position:absolute;
+    bottom: -80px;
+    left: 525px;
+    
+    */
+
+/* Container */
+
+
+
+.containerH2{
+    height: 70px;
+    width: 500px;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 190px;
+    position:absolute;
+
+}
+
+/* Login Form */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.boxleft{
+    position:relative;
+    left: 60px;
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 20px;
+}
+
+.boxright{
+    position:relative;
+    left: 20px;
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit{
+    margin: 0 auto;
+    display: block;
+    align-items:center;
+    text-align: center;
+
+    padding: 12px 30px;
+    width: 200px;
+  
+    background-color: rgb(69, 69, 69);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transform: translateY(-170%);
+
+}
+
+#submit:hover{
+    margin: 0 auto;
+    display: block;
+    align-items:center;
+    text-align: center;
+    cursor: pointer;
+    background-color: #745672;
+
+    
+}
+
+.colleft1 {
+    display: block;
+    float: left;
+    position: relative;
+    top: 9px;
+    text-align: left;
+    margin-left: 85px;
+    line-height: 25px;
+    width: 301px;
+    height: 30px;
+ }
+ 
+    .colright1 {
+    display: block;
+    float: left;
+    position: relative;
+    top: 9px;
+    text-align: left;
+    margin-left: 40px;
+    line-height: 25px;
+    width: 300px;
+    height: 30px;
+ }
+
+
+/* Right Side */
+
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+.h2{
+    font-size: 1.0rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 60px;
+    text-align: left;
+    color: rgb(67, 49, 67);
+}
